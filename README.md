@@ -1,6 +1,6 @@
 # Liver Disease Prediction — Streamlit
 
-A GitHub-ready Streamlit app adapted from the uploaded `nafld_model.ipynb`. It compares Logistic Regression, Decision Tree, Random Forest, and SVM models, then allows a user to enter patient measurements and view a model prediction.
+A GitHub-ready Streamlit app It compares Logistic Regression, Decision Tree, Random Forest, and SVM models, then allows a user to enter patient measurements and view a model prediction.
 
 ## Deploy on Streamlit Community Cloud
 
@@ -33,7 +33,5 @@ streamlit run app.py
 ```
 
 ## Important notes
-
-- The uploaded notebook used an embedded ngrok authtoken. That token is intentionally **not included** in this project. If it was a real token, revoke/rotate it in the ngrok dashboard.
 - This app is for educational/research demonstration only and is not a diagnostic tool.
 - Model scores are dataset-dependent and are not evidence of clinical validity.
