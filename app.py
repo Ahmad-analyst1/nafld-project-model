@@ -15,7 +15,15 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 
-st.set_page_config(page_title="NAFLD / Liver Disease Prediction", page_icon="🩺", layout="wide")
+st.set_page_config(page_title="NAFLD /import streamlit as st
+
+# Render a Liver Icon from a direct SVG url string or a local file asset
+liver_icon_url = "https://svgrepo.com"
+
+st.title("Medical Dashboard")
+st.image(liver_icon_url, width=48)
+st.write("Liver health statistics and analytics.")
+ ", page_icon="🩺", layout="wide")
 
 COLUMNS = [
     "Age", "Gender", "Total_Bilirubin", "Direct_Bilirubin",
